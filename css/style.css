@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    float: left;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(199, 192, 192);
+    padding: 10px 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+    display: block;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+
+
+button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(148, 1, 1);
+    color:white;
+    padding: 5px 8px;
+    transition: 0.4s ease-in-out; 
+    margin-top: 14px;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(2, 25, 99, 0.897);
+    color:white;
+    padding: 5px 8px;
+    transition: 0.4s ease-in-out;   
+}
+nav ul li a:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 5px rgb(255, 0, 0);
+}
+
+/* cover Photo Section */
+
+    .cover{
+        width: 100%;
+        float:left;
+    }
+
+/* Gallery Section */
+
+    .gallery{
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-left: 90px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .g-1{
+        height: 200px;
+        width: 25%;
+        float: left;
+    }
+    .g-2{
+        height: 200px;
+        width: 25%;
+        float: left;
+    }
+    .g-3{
+        height: 200px;
+        width: 25%;
+        float: left;
+    }
+    .g-4{
+        height: 200px;
+        width: 25%;
+        float: left;
+    }
+
+    /*Banner Section*/
+
+    .portfolio{
+        width: 100%;
+        float: left;
+        margin: 30px 50px 80px 80px ;
+        text-align: center;
+        background-color: rgba(199, 192, 192, 0.452);
+        padding: 25px;
+    }
+    .p-1{
+        height: 180px;
+        width: 50%;
+        float:left
+    }
+    .p-2{
+        height: 180px;
+        width: 50%;
+        float:left
+    }
+
+
+/* Blog Section */
+
+.blog{
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+.blog-1{
+    width: 50%;
+    float: left;
+    height: 50px; 
+    padding: 10px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.blog-2{
+    width: 50%;
+    float: left;
+    height: 50px;
+    padding: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+/* Offer Section */
+
+.offer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.feedback{
+    width: 100%;
+    float: left;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Hilton Brands Photos */
+
+.hilton-13{
+    width: 100%;
+    float: left;
+    height: 80px;
+}
+.h-5{
+    width: 20%;
+
+}
+.h-6{
+    width: 20%;
+
+}
+.h-7{
+    width: 20%;
+}
+.h-8{
+    width: 20%;
+}
+.h-9{
+    width: 20%;
+}
+    
+
+/*  Footer Section  */
+footer{
+    background-color: whitesmoke;
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.six{
+    width: 50%;
+    float: left;
+}
+.six h2{
+    text-align: center;
+    font-size: 23px;
+}
+.social-icon{
+    width: 50%;
+    float: left;
+}
+.social-icon ul{
+    list-style: none;
+    border-radius: 30px;
+}
+.social-icon ul li{
+    display:inline-block;
+    margin: 10px 20px;
+}
+.social-icon ul li a{
+    background-color: rgba(44, 76, 255, 0.815);
+    color:white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    /*   --------- transform: scale(1.5); --------   */
+}
